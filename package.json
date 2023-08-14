@@ -1,0 +1,18 @@
+{
+  "name": "react-state-management-sample-with-pokeapi",
+  "packageManager": "yarn@3.2.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "w-context": "yarn workspace with-context-reducer",
+    "w-recoil": "yarn workspace with-recoil",
+    "w-rq": "yarn workspace with-recoil-react-query",
+    "w-rtk": "yarn workspace with-rtk",
+    "ds": "yarn workspace design-system"
+  },
+  "dependencies": {
+    "react-query": "^3.39.3"
+  }
+}
